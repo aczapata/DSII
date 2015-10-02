@@ -22,7 +22,6 @@ end
 group :production do
   gem 'pg'
   gem 'puma'
-  gem 'unicorn'
   gem 'rails_12factor'
 end
 
@@ -32,6 +31,7 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'unicorn'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'tzinfo-data'
