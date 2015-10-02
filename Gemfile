@@ -22,6 +22,7 @@ end
 group :production do
   gem 'pg'
   gem 'puma'
+  gem 'unicorn'
   gem 'rails_12factor'
 end
 
